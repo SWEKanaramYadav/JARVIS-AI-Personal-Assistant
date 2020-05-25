@@ -8,13 +8,12 @@ It is an AI assistant which will automate your task like it can send emails also
 
 
 
-Prerequsites:
+Prerequisites:
 
 
 
 
-
-*[Python3.6.2](https://www.python.org/downloads/release/python-362/)*
+*[Python3.8.3](https://www.python.org/downloads/release/python-383/)*
 
 
 
