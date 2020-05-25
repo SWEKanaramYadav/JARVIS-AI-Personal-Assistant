@@ -24,7 +24,7 @@ from selenium import webdriver
 
 
 engine = pyttsx3.init('sapi5')
-client = wolframalpha.Client('PRE3T8-UY44JL8XKG')
+client = wolframalpha.Client('Your_API _Id')
 voices  = engine.getProperty('voices')
 engine.setProperty('voice',voices[0].id)
 
@@ -296,8 +296,8 @@ if __name__ == "__main__":
                     server = smtplib.SMTP('smtp.gmail.com', 587)
                     server.ehlo()
                     server.starttls()
-                    server.login("imkanaram@gmail.com", 'chandu@6243')
-                    server.sendmail('imkanaram@gmail.com', "kanaramyadavofficial@gmail.com", content)
+                    server.login("To Email is", 'Your_password')
+                    server.sendmail('To Email ID', "From Email Id", content)
                     server.close()
                     speak('Email sent!')
 
@@ -307,10 +307,10 @@ if __name__ == "__main__":
         # elif 'send message' in query or 'Send SMS' in query:
         #     speak('who is the recipient?')
         #     inputres = takeCommand()
-        #     inputlist = {'papa':'+919660574957', 'self':'+919993946243'}
+        #     inputlist = {'', ''}
         #     for inputres in inputlist:
         #         if 'inputres' == query or inputres == query or inputres in query or 'inputres' in query:
-        #             client = Client("ACf8519662a6fc319aa976f3e5fa4ba30c", "75590babfc19ac1261f6df3d4b3fb7a1")
+        #             client = Client("Your_API _Id", "Your_API _key")
         #             client.messages.create(to=inputlist[inputres], 
 #                                 from_="+12073832920",
 #                                 body="This msg from jarvis")
@@ -321,14 +321,14 @@ if __name__ == "__main__":
         #         speak("Recipient Not Avaliable!")
         elif "send message" in query or 'message to self' in query: 
                 # You need to create an account on Twilio to use this service 
-                account_sid = 'ACf8519662a6fc319aa976f3e5fa4ba30c'
-                auth_token = '75590babfc19ac1261f6df3d4b3fb7a1'
+                account_sid = 'Your_API _Id'
+                auth_token = 'Your_API _Key'
                 client = Client(account_sid, auth_token) 
                 speak('What should I say? '),
                 message = client.messages.create(                   
                                     body = takeCommand(), 
-                                    from_="+12073832920", 
-                                    to ='+919983946243',
+                                    from_="Number", 
+                                    to ='Nymber',
                                 ) 
                 print(message.sid) 
 
