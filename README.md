@@ -42,6 +42,6 @@ pip install twilio
 ```
 
 ## License & Copyright
-© [Kana Ram Yadav](https://imkanaram.github.io/)
+© [Kana Ram Yadav](https://iamkanaramyadav.github.io/)
 
 Licensed under the [MIT License](License)
