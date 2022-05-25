@@ -27,7 +27,7 @@ pipwin==0.5.0
 PyAudio
 pyjokes==0.6.0
 pyjsparser==2.7.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.7
 pypiwin32==223
 PyPrind==2.11.2
