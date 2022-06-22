@@ -18,7 +18,7 @@ Js2Py==0.70
 kiwisolver==1.2.0
 matplotlib==3.2.1
 more-itertools==8.3.0
-numpy==1.18.4
+numpy==1.22.0
 opencv-python==4.2.0.34
 packaging==20.4
 pandas==1.0.3
